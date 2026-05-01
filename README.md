@@ -22,7 +22,7 @@ permite que copiéis la **estructura** sin copiar la **solución**.
 ```bash
 # 1. Clonar y entrar
 git clone <este-repo>
-cd agente-rag-dni
+cd agente-rag-gti
 
 # 2. Instalar (Python 3.11+)
 python -m venv .venv && source .venv/bin/activate
@@ -54,7 +54,7 @@ Salida (resumida):
 ## Estructura del repositorio
 
 ```
-agente-rag-dni/
+agente-rag-gti/
 ├── consultar.py          # CONTRATO §9 opción A (módulo Python)
 ├── api.py                # CONTRATO §9 opción B (POST /query con FastAPI)
 ├── features.json         # Declaración para el corrector — SIN ESTO LA NOTA ES 0

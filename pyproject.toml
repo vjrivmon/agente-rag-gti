@@ -3,9 +3,9 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "agente-rag-dni"
+name = "agente-rag-gti"
 version = "0.1.0"
-description = "Repo-ejemplo para la práctica del Asistente DNI (Inteligencia Artificial, 3º GTI, UPV). Caso GTI Orienta."
+description = "Repo-ejemplo de la práctica del Asistente DNI (Inteligencia Artificial, 3º GTI, UPV). Caso paralelo: GTI Orienta."
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [
